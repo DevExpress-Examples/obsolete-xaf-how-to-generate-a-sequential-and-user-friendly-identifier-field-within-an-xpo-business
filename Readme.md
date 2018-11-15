@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [TestUserFriendlyCodeObject.cs](./CS/Solution2.Module/BusinessObjects/TestUserFriendlyCodeObject.cs) (VB: [TestUserFriendlyCodeObject.vb](./VB/Solution2.Module/BusinessObjects/TestUserFriendlyCodeObject.vb))
+* [E4904.ets](./CS/Solution2.Module/FunctionalTests/E4904.ets) (VB: [E4904.ets](./VB/Solution2.Module/FunctionalTests/E4904.ets))
+<!-- default file list end -->
 # How to generate a sequential and user-friendly identifier field within an XPO business class
 
 
