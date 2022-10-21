@@ -13,7 +13,7 @@ This example illustrates one of the possible approaches to implement a user-frie
 
 Orders, articles, or other business entities often require that you have user-friendly **Id** or **Code** fields that end-users can memorize and use during phone conversations. They are usually sequential, but some gaps can be allowed as well, for example, when an order is deleted. Refer to <a href="http://stackoverflow.com/questions/5924499/"><u>this StackOverFlow thread</u></a> for more information on this common scenario and a possible implementation.
 
-## Steps to implement
+## Implementation Details
 
 1. Add a new business class to your platform-agnostic module.
 
