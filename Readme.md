@@ -5,9 +5,9 @@
 <!-- default badges end -->
 <!-- default file list -->
 
-# Generate a sequential user-friendly identifier field in XPO business class
+# XAF XPO - How to Generate a Sequential User-friendly Identifier Field
 
-This example illustrates one of the possible approaches to implement a user-friendly identifier field with sequential values.
+This example illustrates one of the possible approaches to implement a user-friendly identifier field with sequential values in an XPO business class.
 
 ## Scenario
 
