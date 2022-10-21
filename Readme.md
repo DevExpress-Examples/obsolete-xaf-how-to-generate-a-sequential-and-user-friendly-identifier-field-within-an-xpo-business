@@ -30,9 +30,9 @@ Orders, articles, or other business entities often require that you have user-fr
    * Security system checks as per this blog post [about Session.DataLayer property](http://dennisgaravsky.blogspot.com/2013/03/beware-of-sessiondatalayer-in-middle.html). 
 
    > **Note**
-   > You can use any strings as the `seqType`  and `serverPrefix` (optional) parameters that allow you to run named sequences in parallel. These parameters determine criteria for updating right sequences. The demo uses the full persistent type name and a custom prefix that you can change: 
+   > You can use any strings as the `seqType` and `serverPrefix` (optional) parameters that allow you to run named sequences in parallel. These parameters determine criteria for updating right sequences. The demo uses the full persistent type name and a custom prefix that you can change: 
    >
-   > <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-generate-a-sequential-and-user-friendly-identifier-field-within-an-xpo-business-class-e4904/15.2.4+/media/23987c12-512c-11e7-80c0-00155d624807.png">  
+   > ![Parameters Example](/media/parameter-strings.png)  
    
 4. Build your platform-agnostic project and double-click on the _Solution2.Module\Module.xx_ file to invoke the [Module Designer](http://documentation.devexpress.com/#Xaf/CustomDocument2828). 
 
@@ -40,7 +40,7 @@ Orders, articles, or other business entities often require that you have user-fr
 
 6. Select the **OidGenerator** node and press the space bar to include this persistent type into the business model of your module: 
    
-   <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-generate-a-sequential-and-user-friendly-identifier-field-within-an-xpo-business-class-e4904/15.2.4+/media/ea171854-ec1c-11e5-80bf-00155d62480c.png">
+   ![OidGenerator node in Module Designer](media/module-designer-oidgenerator-node.png)
 
 ## Additional information
   
