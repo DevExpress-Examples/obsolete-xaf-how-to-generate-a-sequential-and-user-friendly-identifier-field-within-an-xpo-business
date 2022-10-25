@@ -50,7 +50,7 @@ Orders, articles, or other business entities often require that you have user-fr
 
 2. If you have validation rules for your business class, the `OnSaving` method (and thus the sequence generation) is called only after all validation is passed. However, in rare cases, if a database related error is thrown during the first save and then the form is re-saved, the`OnSaving` method may be called again and a new sequence can be generated. This may lead to gaps in sequential numbers, which is not always allowed by business requirements (e.g., government regulations). To avoid this, you can use a more complicated solution from the [How to generate and assign a sequential number for a business object within a database transaction, while being a part of a successful saving process (XAF)](https://www.devexpress.com/Support/Center/p/E2829) example or implement a database-level solution to handle such situations, for example, using triggers. 
 
-3. In the [Integrated Mode](https://docs.devexpress.com/eXpressAppFramework/113436/data-security-and-safety/security-system/security-tiers/2-tier-security-integrated-mode-and-ui-level) and [Middle Tier Application Server](https://docs.devexpress.com/eXpressAppFramework/113439/data-security-and-safety/security-system/security-tiers/middle-tier-security) scenarios, the newly generated sequence number will appear in the DetailView only after a manual refresh, because the sequence is generated on the server side only and is not passed to the client. For additional information, refer to the [Refresh the Identifier field value in UI" section](https://www.devexpress.com/Support/Center/p/T567184) KB article.
+3. In the [Integrated Mode](https://docs.devexpress.com/eXpressAppFramework/113436/data-security-and-safety/security-system/security-tiers/2-tier-security-integrated-mode-and-ui-level) and [Middle Tier Application Server](https://docs.devexpress.com/eXpressAppFramework/113439/data-security-and-safety/security-system/security-tiers/middle-tier-security) scenarios, the newly generated sequence number will appear in the DetailView only after a manual refresh, because the sequence is generated on the server side only and is not passed to the client. For additional information, refer to the following section of the KB article: [Refresh the Identifier field value in UI](https://www.devexpress.com/Support/Center/p/T567184).
 
 4. You can find functional [EasyTest](https://docs.devexpress.com/eXpressAppFramework/113211/debugging-testing-and-error-handling/functional-tests-easy-test) scripts for this scenario in the _Solution2.Module\FunctionalTests\E4904.ets_ file. 
 
@@ -68,3 +68,7 @@ Orders, articles, or other business entities often require that you have user-fr
 ## Documentation
 
 * [An overview of approaches to implementing a user-friendly sequential number for use with an XPO business class](https://www.devexpress.com/Support/Center/p/T567184)
+
+## Examples
+
+* [XAF - How to generate a sequential number for a persistent object within a database transaction](https://github.com/DevExpress-Examples/XAF_how-to-generate-a-sequential-number-for-a-persistent-object-within-a-database-transaction-e2829)
