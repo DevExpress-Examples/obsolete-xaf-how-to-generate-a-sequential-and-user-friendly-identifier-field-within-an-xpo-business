@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequentalGenerator.Module", "SequentalGenerator.Module\SequentalGenerator.Module.csproj", "{E554757E-C46C-497D-A280-714B51EA7654}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequentalGenerator.Win", "SequentalGenerator.Win\SequentalGenerator.Win.csproj", "{F6CEEFFA-43CF-43A8-9599-E1D9F4E0498F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequentalGenerator.Blazor.Server", "SequentalGenerator.Blazor.Server\SequentalGenerator.Blazor.Server.csproj", "{02262E9C-12CA-4895-BC86-1C683F6F0029}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E554757E-C46C-497D-A280-714B51EA7654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E554757E-C46C-497D-A280-714B51EA7654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E554757E-C46C-497D-A280-714B51EA7654}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{E554757E-C46C-497D-A280-714B51EA7654}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{E554757E-C46C-497D-A280-714B51EA7654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E554757E-C46C-497D-A280-714B51EA7654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CEEFFA-43CF-43A8-9599-E1D9F4E0498F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CEEFFA-43CF-43A8-9599-E1D9F4E0498F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CEEFFA-43CF-43A8-9599-E1D9F4E0498F}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{F6CEEFFA-43CF-43A8-9599-E1D9F4E0498F}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{F6CEEFFA-43CF-43A8-9599-E1D9F4E0498F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CEEFFA-43CF-43A8-9599-E1D9F4E0498F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02262E9C-12CA-4895-BC86-1C683F6F0029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02262E9C-12CA-4895-BC86-1C683F6F0029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02262E9C-12CA-4895-BC86-1C683F6F0029}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{02262E9C-12CA-4895-BC86-1C683F6F0029}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{02262E9C-12CA-4895-BC86-1C683F6F0029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02262E9C-12CA-4895-BC86-1C683F6F0029}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {227CD010-4F4A-4EDF-98FC-9341AC9056E4}
+	EndGlobalSection
+EndGlobal
