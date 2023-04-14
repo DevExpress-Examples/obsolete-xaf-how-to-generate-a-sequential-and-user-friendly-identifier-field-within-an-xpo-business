@@ -45,7 +45,7 @@ Orders, articles, or other business entities often require that you have user-fr
 
 6. Select the **OidGenerator** node and press the space bar to include this persistent type into the business model of your module: 
    
-   ![OidGenerator node in Module Designer](media/module-designer-oidgenerator-node.png)
+  ![image](https://user-images.githubusercontent.com/14300209/231966568-77f46d31-5bc0-4548-8f62-35973677d1ad.png)
 
 ## Additional information
   
