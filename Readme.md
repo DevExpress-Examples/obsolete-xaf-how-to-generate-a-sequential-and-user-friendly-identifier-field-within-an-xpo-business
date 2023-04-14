@@ -37,7 +37,7 @@ Orders, articles, or other business entities often require that you have user-fr
    > **Note**
    > You can use any strings as the `seqType` and `serverPrefix` (optional) parameters that allow you to run named sequences in parallel. These parameters determine criteria for updating right sequences. The demo uses the full persistent type name and a custom prefix that you can change: 
    >
-   > ![Parameters Example](/media/parameter-strings.png)  
+   > ![image](https://user-images.githubusercontent.com/14300209/231965953-7cddcda3-4e13-495c-8392-e3cf5b4e9b04.png)
    
 4. Build your platform-agnostic project and double-click on the _Solution2.Module\Module.xx_ file to invoke the [Module Designer](http://documentation.devexpress.com/#Xaf/CustomDocument2828). 
 
@@ -67,8 +67,8 @@ Orders, articles, or other business entities often require that you have user-fr
 
 ## Files to Review
 
-* [TestUserFriendlyCodeObject.cs](./CS/Solution2.Module/BusinessObjects/TestUserFriendlyCodeObject.cs) (VB: [TestUserFriendlyCodeObject.vb](./VB/Solution2.Module/BusinessObjects/TestUserFriendlyCodeObject.vb))
-* [E4904.ets](./CS/Solution2.Module/FunctionalTests/E4904.ets) (VB: [E4904.ets](./VB/Solution2.Module/FunctionalTests/E4904.ets))
+* [TestUserFriendlyCodeObject.cs](./CS/SequentalGenerator/SequentalGenerator.Module/BusinessObjects/TestUserFriendlyCodeObject.cs) 
+
 
 ## Documentation
 
