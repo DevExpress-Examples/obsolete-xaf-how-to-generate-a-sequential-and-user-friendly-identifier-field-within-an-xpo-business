@@ -38,6 +38,8 @@ Orders, articles, or other business entities often require that you have user-fr
    > You can use any strings as the `seqType` and `serverPrefix` (optional) parameters that allow you to run named sequences in parallel. These parameters determine criteria for updating right sequences. The demo uses the full persistent type name and a custom prefix that you can change: 
    >
    > ![image](https://user-images.githubusercontent.com/14300209/231965953-7cddcda3-4e13-495c-8392-e3cf5b4e9b04.png)
+
+   
    For example: [TestUserFriendlyCodeObject](CS/SequentalGenerator/SequentalGenerator.Module/BusinessObjects/TestUserFriendlyCodeObject.cs)
    
 ## Additional information
