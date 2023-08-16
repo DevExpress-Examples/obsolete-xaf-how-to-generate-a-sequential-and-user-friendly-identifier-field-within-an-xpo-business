@@ -18,6 +18,9 @@ Looking for EF Core information instead of XPO? The following example shows how 
 
 Orders, articles, or other business entities often require that you have user-friendly **Id** or **Code** fields that end-users can memorize and use during phone conversations. They are usually sequential, but some gaps can be allowed as well, for example, when an order is deleted. Refer to <a href="http://stackoverflow.com/questions/5924499/"><u>this StackOverFlow thread</u></a> for more information on this common scenario and a possible implementation.
 
+![image](https://github.com/AndreyKozhevnikov/XAF_how-to-generate-a-sequential-and-user-friendly-identifier-field-within-an-xpo-business-e4904/assets/14300209/ce3ceb11-6d4e-41e1-998b-67cce936ad9b)
+
+
 ## Implementation Details
 
 1. Add a new business class to your platform-agnostic module.
