@@ -22,7 +22,7 @@ Orders, articles, or other business entities often require that you have user-fr
 
 1. Add a new business class to your platform-agnostic module.
 
-2. In the `OnSaving` method, call the static `DevExpress.Persistent.BaseImpl.DistributedIdGeneratorHelper.Generate` method. 
+2. In the `OnSaving` method, call the static `DevExpress.Persistent.BaseImpl.DistributedIdGeneratorHelper.Generate` method. For example: [TestUserFriendlyCodeObject](CS/SequentalGenerator/SequentalGenerator.Module/BusinessObjects/TestUserFriendlyCodeObject.cs)
 
    Depending on your business requirements, you can implement a readonly persistent or editable property where the generated value will be stored. You can also perform various checks before you generate the next sequence, such as:
    
@@ -39,8 +39,8 @@ Orders, articles, or other business entities often require that you have user-fr
    >
    > ![image](https://user-images.githubusercontent.com/14300209/231965953-7cddcda3-4e13-495c-8392-e3cf5b4e9b04.png)
 
-   
-   For example: [TestUserFriendlyCodeObject](CS/SequentalGenerator/SequentalGenerator.Module/BusinessObjects/TestUserFriendlyCodeObject.cs)
+
+  
    
 ## Additional information
   
