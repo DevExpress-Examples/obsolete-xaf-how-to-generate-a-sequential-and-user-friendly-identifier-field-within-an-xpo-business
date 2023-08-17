@@ -20,12 +20,11 @@ Orders, articles, or other business entities often require that you have user-fr
 
 ![image](https://github.com/AndreyKozhevnikov/XAF_how-to-generate-a-sequential-and-user-friendly-identifier-field-within-an-xpo-business-e4904/assets/14300209/ce3ceb11-6d4e-41e1-998b-67cce936ad9b)
 
-
 ## Implementation Details
 
 1. Add a new business class to your platform-agnostic module.
 
-2. In the `OnSaving` method, call the static `DevExpress.Persistent.BaseImpl.DistributedIdGeneratorHelper.Generate` method. For example: [TestUserFriendlyCodeObject](CS/SequentalGenerator/SequentalGenerator.Module/BusinessObjects/TestUserFriendlyCodeObject.cs)
+2. In the `OnSaving` method, call the static `DevExpress.Persistent.BaseImpl.DistributedIdGeneratorHelper.Generate` method. Refer to the following file for an example: [TestUserFriendlyCodeObject](CS/SequentalGenerator/SequentalGenerator.Module/BusinessObjects/TestUserFriendlyCodeObject.cs)
 
    Depending on your business requirements, you can implement a readonly persistent or editable property where the generated value will be stored. You can also perform various checks before you generate the next sequence, such as:
    
