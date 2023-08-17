@@ -45,7 +45,8 @@ Orders, articles, or other business entities often require that you have user-fr
 
   
    
-## Additional information
+## Additional Information
+
   
 1. The `DistributedIdGeneratorHelper` class demonstrated in this solution creates the **IDGeneratorTable** table to store the information about the last sequential number of a type. You can learn more on how this works from its source code at _C:\Program Files\DevExpress 2X.X\Components\Sources\DevExpress.Persistent\DevExpress.Persistent.BaseImpl.Xpo\IDGenerator.cs_. 
 
