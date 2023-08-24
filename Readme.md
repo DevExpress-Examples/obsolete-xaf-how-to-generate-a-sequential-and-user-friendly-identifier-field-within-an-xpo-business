@@ -22,7 +22,8 @@ Orders, articles, or other business entities often require that you have user-fr
 
 ## Implementation Details
 
-1. Add a new business class to your platform-agnostic module.
+1. Add a new business class to the **YourSolutionName.Module** project.
+
 
 2. In the `OnSaving` method, call the static `DevExpress.Persistent.BaseImpl.DistributedIdGeneratorHelper.Generate` method. Refer to the following file for an example: [TestUserFriendlyCodeObject](CS/SequentalGenerator/SequentalGenerator.Module/BusinessObjects/TestUserFriendlyCodeObject.cs)
 
