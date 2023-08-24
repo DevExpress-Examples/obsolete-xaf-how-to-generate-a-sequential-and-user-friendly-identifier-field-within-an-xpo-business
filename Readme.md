@@ -48,7 +48,8 @@ Orders, articles, or other business entities often require that you have user-fr
 ## Additional Information
 
   
-1. The `DistributedIdGeneratorHelper` class demonstrated in this solution creates the **IDGeneratorTable** table to store the information about the last sequential number of a type. You can learn more on how this works from its source code at _C:\Program Files\DevExpress 2X.X\Components\Sources\DevExpress.Persistent\DevExpress.Persistent.BaseImpl.Xpo\IDGenerator.cs_. 
+1. The `DistributedIdGeneratorHelper` class demonstrated in this solution creates the **IDGeneratorTable** table to store the information about the last sequential number of a type. You can find more information on how this works from its source code at _C:\Program Files\DevExpress 2X.X\Components\Sources\DevExpress.Persistent\DevExpress.Persistent.BaseImpl.Xpo\IDGenerator.cs_. 
+
 
 2. If you have validation rules for your business class, the `OnSaving` method (and thus the sequence generation) is called only after all validation is passed. However, in rare cases, if a database related error is thrown during the first save and then the form is re-saved, the`OnSaving` method may be called again and a new sequence can be generated. This may lead to gaps in sequential numbers, which is not always allowed by business requirements (e.g., government regulations). To avoid this, you can use a more complicated solution from the [How to generate and assign a sequential number for a business object within a database transaction, while being a part of a successful saving process (XAF)](https://www.devexpress.com/Support/Center/p/E2829) example or implement a database-level solution to handle such situations, for example, using triggers. 
 
